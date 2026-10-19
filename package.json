@@ -1,0 +1,42 @@
+{
+  "name": "local-seo-audit",
+  "version": "0.1.0",
+  "description": "Audit what a crawler can actually read from a local business website: LocalBusiness schema, NAP consistency, opening hours, sitemap, robots.txt, llms.txt.",
+  "type": "module",
+  "license": "MIT",
+  "author": {
+    "name": "RelayStack",
+    "url": "https://relaystack.github.io/"
+  },
+  "homepage": "https://github.com/RelayStack/local-seo-audit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RelayStack/local-seo-audit.git"
+  },
+  "bin": {
+    "local-seo-audit": "./scripts/audit.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "SKILL.md",
+    "scripts/audit.mjs",
+    "references/"
+  ],
+  "keywords": [
+    "local-seo",
+    "seo",
+    "seo-audit",
+    "localbusiness",
+    "schema-org",
+    "structured-data",
+    "llms-txt",
+    "agent-skill",
+    "zero-dependency"
+  ],
+  "scripts": {
+    "test": "node --test scripts/test.mjs",
+    "audit": "node scripts/audit.mjs"
+  }
+}
